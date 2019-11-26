@@ -1,0 +1,36 @@
+/*selector {
+	propety:  value;
+}*/
+body {
+	background-image: url(backgroundimage.jpg);
+	background-size: cover;
+}
+h2 {
+	color: red;
+	text-align: center;
+	border: 5px solid blue;
+	cursor: pointer;
+}
+p{
+	color: pink;
+}
+li{
+	list-style: lower-norwegian;
+	display: inline-block;
+}
+/* cascading stye sheet at the most basic indicates order of css rules matter
+.class
+#id
+* means all elements
+element
+element, element
+element element
+element+ element
+hover
+last-child
+firrst-child
+what selectors win out in the cascade  depends on ;
+-specificity
+-importance
+-source order
+*/
