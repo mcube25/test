@@ -50,6 +50,7 @@ img {
     width: 450px;
     height: 300px;
     margin: 10px;
+    transition: all 1s;
 }
 h1 {
     font-family: fantasy;
@@ -57,4 +58,14 @@ h1 {
     border-bottom: 2px solid pink ;
     border-right: 2px solid pink;
     text-align: center;
+    box-shadow: 4px 4px 4px brown;
+    margin-top: 10px; 
 }
+img:hover {
+transform: scale(1.1)
+}
+/*
+u can scale an element by setting parameterrs for the width(x-axis) or the height(y-axis)
+e.g transform: scalex(2) or scale() ffor both axis or transform: scale((2, 4). n dont 4get to
+add transitiion to te parent selector
+*/
