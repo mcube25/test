@@ -1,0 +1,71 @@
+/*selector {
+	propety:  value;
+}*/
+body {
+	background-image: url(backgroundimage.jpg);
+	background-size: cover;
+}
+h2 {
+	color: red;
+	text-align: center;
+	border: 5px solid blue;
+	cursor: pointer;
+}
+p{
+	color: pink;
+}
+li{
+	list-style: lower-norwegian;
+	display: inline-block;
+}
+/* cascading stye sheet at the most basic indicates order of css rules matter
+.class
+#id
+* means all elements
+element
+element, element
+element element
+element+ element
+hover
+last-child
+firrst-child
+what selectors win out in the cascade  depends on ;
+-specificity
+-importance
+-source order
+https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg
+https://static.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg
+https://static.pexels.com/photos/213399/pexels-photo-213399.jpeg
+https://static.pexels.com/photos/158471/ibis-bird-red-animals-158471.jpeg
+https://static.pexels.com/photos/133459/pexels-photos-133459.jpeg
+https://static.pexels.com/photos/50988/ape-berber-monkeys-mammal-affchen-50988.jpeg
+
+*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img {
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all 1s;
+}
+h1 {
+    font-family: fantasy;
+    font-size: 3em;
+    border-bottom: 2px solid pink ;
+    border-right: 2px solid pink;
+    text-align: center;
+    box-shadow: 4px 4px 4px brown;
+    margin-top: 10px; 
+}
+img:hover {
+transform: scale(1.1)
+}
+/*
+u can scale an element by setting parameterrs for the width(x-axis) or the height(y-axis)
+e.g transform: scalex(2) or scale() ffor both axis or transform: scale((2, 4). n dont 4get to
+add transitiion to te parent selector
+*/
